@@ -1,20 +1,18 @@
 .App{
     width: 100%;
     min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     gap: 4em;
 }
 h1{
     font-family: 'Varela Round', sans-serif;
-    position: absolute;
-    top: 2em;
     max-width: 600px;
     font-weight: 900;
     font-size: 40px;
@@ -23,45 +21,41 @@ h1{
     -webkit-text-stroke-color: #000000;
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
 }
-
 .btn__change{
     max-width: 10em;
     padding: 1em;
     background-color: rgba(26, 155, 187, 0.5);
     border: none;
     border-radius: 2em;
-    position: absolute;
-    top: 180px;
 }
 .btn__change:hover{
     cursor: pointer;
-    background-color: rgba(23, 131, 158, 0.76);
-    
+    background-color: rgba(23, 131, 158, 0.76);  
 }
 .phrase__container{
     max-width: 550px;
-    height: 150px;
+    max-height: 250px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     background-color: rgba(255, 255, 255, 1);
     display: flex;
     align-items: center;
     border: 3px solid #C19A6B;
-    position: absolute;
-    border-radius: 1em;
+    border-radius: 1em; 
 }
 .p__phrase{
     font-family: 'Dancing Script', cursive;
     font-size: 28px;
 }
-.author__container{
-    position: absolute;
+.author__container{   
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 2em;
-    width: 140px;
-    height: 48px;
-    background-color: rgba(23, 131, 158, 0.76);
+    width: 120px;
+    height: 40px;
+    background-color: rgba(23, 131, 158, 0.5);
     border-radius: 1em;
+    margin: 20px; 
 }
 .p__author{
     font-family: Arial, Helvetica, sans-serif;
